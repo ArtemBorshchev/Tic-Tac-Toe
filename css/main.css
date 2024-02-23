@@ -1,0 +1,52 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #F8F8F8; /* Цвет фона */
+}
+
+#area {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
+  background-color: #FFFFFF; /* Цвет поля */
+  border: 2px solid #E6E6E6; /* Цвет рамки */
+  padding: 10px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  background-color: #FFFFFF; /* Цвет клеток */
+  border: 2px solid #E6E6E6; /* Цвет рамки клеток */
+}
+
+.cell:hover {
+  cursor: pointer;
+}
+
+.game-status {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.restart-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #00BBD5; /* Цвет кнопки */
+  color: #FFFFFF; /* Цвет текста кнопки */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.restart-button:hover {
+  background-color: #0099B0; /* Цвет кнопки при наведении */
+}
